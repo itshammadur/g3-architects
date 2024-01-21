@@ -4,10 +4,21 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary{
+  border-radius: 8px;
+  color: #fff ;
+  font-size: 1.25rem;
+  background: #FF900E;
+  padding: 21px 26px;
+  cursor: pointer;
+  border: none;
+}
+
 
 header{
   background: rgba(255, 144, 14, 0.10);
   padding: 50px 240px;
+  /* border: 1px solid salmon; */
 }
 
 nav{
@@ -38,3 +49,46 @@ nav li a{
   color: var(--Dark-02, #424242);
 }
 
+/* banner styles */
+
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-tittle{
+  font-size: 4rem;
+  color: #131313;
+}
+
+.banner-description{
+  color:  #727272;
+}
+
+.banner img{
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+/* responsive */
+/* mobile */
+@media screen and (max-width: 576px){
+  header{
+    padding: 20px;
+  }
+
+  nav{
+    flex-direction: column;
+  }
+}
+/* tablet */
+@media screen and (min-width:576px)  and  (max-width:992px ){
+  header{
+    padding: 50px;
+  }
+  nav{
+    flex-direction: column;
+  }
+}
