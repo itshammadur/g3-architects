@@ -81,7 +81,7 @@ nav li a{
 
 main {
   max-width: 1440px;
-  margin: 0px auto;
+  margin: 70px auto;
   /* margin-left: 300px; */
  
 }
@@ -89,7 +89,7 @@ main {
 .teams-container{
   display: flex;
   align-items: center;
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
 }
 
 
