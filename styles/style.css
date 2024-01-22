@@ -14,6 +14,8 @@
   border: none;
 }
 
+/* ...........shared style.............. */
+
 
 header{
   background: rgba(255, 144, 14, 0.10);
@@ -49,7 +51,7 @@ nav li a{
   color: var(--Dark-02, #424242);
 }
 
-/* banner styles */
+/* banner styles............ */
 
 .banner-content{
   max-width: 800px;
@@ -71,8 +73,67 @@ nav li a{
   width: 100%;
 }
 
+/* ........main features.......... */
 
-/* responsive */
+main {
+  max-width: 1440px;
+  margin: 0px auto;
+  /* margin-left: 300px; */
+ 
+}
+ 
+.teams-container{
+  display: flex;
+  align-items: center;
+  border: 1px solid salmon;
+}
+
+
+.teams-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+
+.teams-content{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.teams-tittle{
+  font-size: 2.8rem;
+}
+
+.quick-list{
+  color: var(--Dark-03, #727272);
+  font-weight: 500;
+}
+
+.text-features{
+  color: #FF900E;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*...........responsive .........*/
+
 /* mobile */
 @media screen and (max-width: 576px){
   header{
@@ -83,6 +144,7 @@ nav li a{
     flex-direction: column;
   }
 }
+
 /* tablet */
 @media screen and (min-width:576px)  and  (max-width:992px ){
   header{
